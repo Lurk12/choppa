@@ -1,0 +1,35 @@
+name: choppa_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+
+
+  assets:
+  - assets/images/choppa-logo.png
+  - assets/images/avatar.png
+  - assets/images/delivery-bike.png
+  - assets/images/restaurant.png
+  - assets/images/take-away.png
+  - assets/images/food.png
+
+  fonts:
+  - family: CircularStd
+    fonts:
+      - asset: assets/fonts/circular-std-medium-500.ttf
